@@ -1,0 +1,19 @@
+rosbag2_bagfile_information:
+  version: 4
+  storage_identifier: sqlite3
+  relative_file_paths:
+    - rosbag2_2022_03_15-09_38_58_0.db3
+  duration:
+    nanoseconds: 237972636881
+  starting_time:
+    nanoseconds_since_epoch: 1647322739030305800
+  message_count: 2283
+  topics_with_message_count:
+    - topic_metadata:
+        name: /uae05/fmu/sensor_gps/in
+        type: px4_msgs/msg/SensorGps
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 2283
+  compression_format: ""
+  compression_mode: ""
